@@ -49,7 +49,7 @@ spec:
             - name: TWILIO_ACCOUNT_SID
               valueFrom:
                 secretKeyRef:
-                  name: chris-twilio-dev
+                  name: twilio-dev
                   key: twilio_account_sid
             - name: TWILIO_AUTH_TOKEN
               valueFrom:
